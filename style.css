@@ -1,0 +1,77 @@
+body {
+    background: #fff;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.document-wrapper{
+    width: 50%;
+}
+
+.document-wrapper img{
+    width: 500px;
+}
+
+.canvas-wrapper{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toolbar {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    background: #fff;
+    padding: 10px 0;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    border: 1px solid black;
+}
+
+.toolbar button {
+    padding: 6px;
+    margin: 7px 2px;
+    font-variant: normal;
+    font-size: 12px;
+}
+
+.canvas-container {
+    width: 100%;
+}
+
+.canvas-wrapper canvas {
+    border: 1px solid black;
+}
+
+.canvas-wrapper img {
+    padding: 2px;    
+    border: 1px solid black;
+    background: white;
+}
+
+.canvas-wrapper img.selected {
+    border: 1px solid black;
+}
+
+#savedCopyContainer {
+    display: none;
+}
+
+#savedCopyContainer img {
+    width: 250px;
+    height: 150px;
+}
+
+.signed-wrapper{
+    display: flex;
+}
+#signed-canvas {
+    display: none;
+}
